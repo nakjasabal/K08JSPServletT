@@ -35,7 +35,7 @@ int result = add(10, 20);
 
 <h2>내가 만든 Java클래스의 메서드 호출하기</h2>
 <%
-	int sum = MyClass.myFunc(1, 100);
+	int sum = MyClass.myFunc(1, 26);
 	out.println("1~100까지의합:"+ sum);
 %> 
 </body>
