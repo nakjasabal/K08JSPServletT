@@ -13,7 +13,7 @@ dao.updateVisitCount(num);
 //게시물의 내용을 인출하여 DTO로 반환받는다.
 BoardDTO dto = dao.selectView(num);
 //자원해제
-dao.close();                               
+dao.close();
 %>
 <!DOCTYPE html>
 <html>
