@@ -18,7 +18,7 @@ autoFlush속성을 통해 버퍼가 꽉 찬 경우 내보내기 할지를 설정
 	가 된다. 여기에 HTML태그들이 있으므로 해당 페이지의 용량은
 	1kb를 초과하게 되어 실행시 에러가 발생한다.
 	해결방법은 buffer의 용량을 늘리거나, autoFlush를 true로 변경하면
-	된다. 
+	된다..
 */
 for (int i = 1; i <= 100; i++) {  
     out.println("abcde12345");
