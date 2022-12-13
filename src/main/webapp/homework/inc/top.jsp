@@ -14,7 +14,7 @@
        <!-- Links -->
        <ul class="navbar-nav ms-3">
            <li class="nav-item">
-               <a class="nav-link" href="#">자유게시판</a>
+               <a class="nav-link" href="boardList.jsp">회원제게시판</a>
            </li>
            
            <li class="nav-item dropdown">
@@ -38,20 +38,18 @@
           </form>
 
           <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-<a class="nav-link" href="#"><i class='bi bi-person-plus-fill' style='font-size:20px'></i>회원가입</a>
-</li>
-<li class="nav-item">
-	<a class="nav-link" href="#"><i class='bi bi-person-lines-fill' style='font-size:20px'></i>회원정보수정</a>
-</li>
-               <li class="nav-item">
-                   <a class="nav-link" href="#"><i class='bi bi-box-arrow-in-right'
-                           style='font-size:20px'></i>로그인</a>
-           </li>
-           <li class="nav-item">
-               <a class="nav-link" href="#"><i class='bi bi-box-arrow-right'
-                       style='font-size:20px'></i>로그아웃</a>
-            </li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><i class='bi bi-person-plus-fill' style='font-size:20px'></i>회원가입</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><i class='bi bi-person-lines-fill' style='font-size:20px'></i>회원정보수정</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="loginForm.jsp"><i class='bi bi-box-arrow-in-right' style='font-size:20px'></i>로그인</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><i class='bi bi-box-arrow-right' style='font-size:20px'></i>로그아웃</a>
+			</li>
         </ul>
     </nav>
 </div>
